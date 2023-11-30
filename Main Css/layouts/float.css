@@ -1,0 +1,56 @@
+header,
+article,
+nav,
+footer {
+    padding: 24px;
+}
+
+header,
+footer {
+    background-color: #164863;
+    color: white;
+}
+
+nav {
+    background-color: #427D9D;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    background-color: #9BBEC8;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+}
+
+nav {
+    width: 30%;
+}
+
+article {
+    width: 70%;
+}
+
+nav,
+article {
+    float: left;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+@media (max-width:540px) {
+
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,44 @@
+header,
+footer {
+    background-color: #164863;
+    color: white;
+}
+
+nav {
+    background-color:#427D9D;
+}
+
+article {
+    background-color: #9BBEC8;
+}
+
+header,
+nav,
+article,
+footer {
+    padding: 24px;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+        'HE HE HE HE'
+        'NA AR AR AR'
+        'NA FO FO FO';
+}
+
+header {
+    grid-area: HE;
+}
+
+nav {
+    grid-area: NA;
+}
+
+article {
+    grid-area: AR;
+}
+
+footer {
+    grid-area: FO;
+}

@@ -1,0 +1,17 @@
+.layoutbtn {
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 15px 20px;
+    background-color: #69a6e7;
+    border-radius: 5px;
+}
+
+.layoutbtn a {
+    color: white;
+    text-decoration: none;
+}
+#frb {
+    border: 3px solid #4F6F52;
+    border-radius: 20px;
+    width: 100%;
+    height: 380px;}

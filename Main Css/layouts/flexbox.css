@@ -1,0 +1,36 @@
+header,
+article,
+nav,
+footer {
+    padding: 24px;
+}
+
+header,
+footer {
+    background-color: #164863;
+    color: white;
+}
+
+nav {
+    background-color:#427D9D;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    background-color: #9BBEC8;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+}
+section {display: flex;}
+
+nav {flex: 3;}
+
+article {flex: 7;}
