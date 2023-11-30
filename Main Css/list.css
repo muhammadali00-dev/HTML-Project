@@ -1,0 +1,36 @@
+.both {
+    background-color: #363062;
+    border-radius: 5px;
+    color: white;
+    height: 400px;
+    padding-top: 25px;
+}
+
+.list li {
+    list-style-type: circle;
+    background-color: #435585;
+    margin: 5px;
+    border-radius: 4px;
+    padding: 10px;
+
+}
+
+.end {
+    list-style-type: disc;
+}
+
+.system {
+    background-color: #363062;
+    border-radius: 5px;
+    color: white;
+    height: 450px;
+    padding-top: 20px;
+}
+
+.system li {
+    list-style-image:url(x.svg);
+    background-color: #435585;
+    margin: 5px;
+    border-radius: 4px;
+    padding: 10px;
+ }
