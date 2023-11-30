@@ -1,0 +1,42 @@
+table,
+th,
+td {
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #FAF3E0;
+
+}
+
+tbody {
+    background-color: #EABF9F;
+}
+
+td {
+    text-align: center;
+}
+
+tfoot {
+    background-color: #B68973;
+}
+
+
+
+#frst {
+    background-color: #FAF3E0;
+}
+
+#mid {
+    background-color: #EABF9F;
+}
+
+#lst {
+    background-color: #B68973;
+}
+
+#hd {
+    background-color: #1E212D;
+    color: white;
+}

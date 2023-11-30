@@ -1,4 +1,7 @@
-#name {size: 40px;}
+#name {
+    size: 40px;
+}
+
 .home {
     display: flex;
     background-color: #4F6F52;
@@ -22,10 +25,3 @@
     background-color: #3A4D39;
     color: #ECE3CE;
 }
-
-
-
-
-
-
-
