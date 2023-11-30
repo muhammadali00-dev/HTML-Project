@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="Main Css/aHome.css">
+
+</head>
+
+<body>
+    <ul class="home">
+        <li> <a href="ahome.html"> Home </a></li>
+        <li> <a href="buttons.html">Buttons</a></li>
+        <li> <a href="">Images</a></li>
+        <li> <a href="tables.html">Tables</a></li>
+        <li> <a href="list.html">Lists</a></li>
+        <li> <a href="">Iframes</a></li>
+        <li> <a href="Forms.html">Forms</a></li>
+        <li> <a href="">Layouts</a></li>
+        <li> <a href="">Menus</a></li>
+    </ul>
+
+    <h1>With forms you can collect data from users</h1>
+    <form action="">
+        <label for="name">Your name:</label><br>
+        <input type="text" name="user_name" id="name" size="40"><br><br>
+
+        <label for="sname">Your surname:</label><br>
+        <input type="text" disabled><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" name="user_email" id="email" autofocus><br><br>
+
+        <label for="password">Your password:</label><br>
+        <input type="password" name="user_password" minlength="4" maxlength="10"><br><br>
+
+
+        <label for="telephone">Your telephone:</label><br>
+        <input type="tel" name="user_tel" id="telephone" placeholder="+994 70 998 99 99"><br><br>
+
+        <label for="link">Your Link:</label><br>
+        <input type="url" name="user_link" id="link"><br><br>
+
+        <label for="age">Your age:</label><br>
+        <input type="number" name="user_age" id="age" min="18" max="67"><br><br>
+
+
+        <label for="profession">Your profession:</label><br>
+        <select name="user_profession" id="profession">
+            <optgroup label="Web devoploment"></optgroup>
+            <option value="Front-end">Front-end Developer</option>
+            <option value="Back-end">Back-end Developer</option>
+            <option value="full stack">full stack</option>
+            <optgroup label="Net Working"></optgroup>
+            <option value="network admin">network admin</option>
+            <option value="network security">network security</option>
+        </select><br><br>
+
+        <label for="codlang">Languages you know:</label><br>
+        <select name="coding_languages" id="codlang" multiple>
+            <option value="js">javascript</option>
+            <option value="py">phython</option>
+            <option value="cpp">c++</option>
+        </select><br><br>
+
+        <label for="os">Your favorite os:</label><br>
+        <input type="text" name="fav_os" id="os">
+        <datalist>
+            <option value="linux"></option>
+            <option value="windows"></option>
+            <option value="mac"></option>
+        </datalist><br><br>
+
+        <label for="color">Your favc color:</label><br>
+        <input type="color" name="fav_color" id="color"><br><br>
+
+        <label for="rate">Your rate:</label><br>
+        <input type="range" name="user_rate" id="rate" step="10"><br><br>
+
+        <label for="date">Date of birth:</label><br>
+        <input type="date" name="user_birthday" id="date" required><br><br>
+
+        <label for="color">working hours:</label><br>
+        <label for="from">from</label>
+        <input type="time" name="working_hour_from" id="from">
+        <label for="to">from</label>
+        <input type="time" name="working_hour_to" id="to"><br><br>
+
+        <label for="moment">Your favorite moment:</label><br>
+        <input type="datetime-local" name="fav_moment" id="moment" value="2023-01-01T12:00"><br><br>
+
+        <label for="week">Your favorite week:</label><br>
+        <input type="week" name="fav_week" id="week" value="2023-01-01T12:00"><br><br>
+
+        <label for="CV">Your CV:</label><br>
+        <input type="file" name="user_cv" id="CV"><br><br>
+
+        <label for="gender">Gender:</label><br>
+
+        <input type="radio" name="user_gender" id="male" checked>
+        <label for="male">Male</label>
+
+        <input type="radio" name="user_gender" id="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <label for="language">Languages:</label><br>
+        <input type="checkbox" name="user_languages" id="eng">
+        <label for="eng">English</label>
+
+        <input type="checkbox" name="user_languages" id="AZ">
+        <label for="AZ">Azerbaijan</label>
+
+        <input type="checkbox" name="user_languages" id="TR">
+        <label for="TR">Turkish</label><br><br>
+
+        <label for="msg">Your message:</label><br>
+        <textarea name="user_message" id="msg" cols="30" rows="10" readonly>Here is your message:</textarea>
+
+        <input type="submit" value="Send">
+    </form>
+
+</body>
+
+</html>
