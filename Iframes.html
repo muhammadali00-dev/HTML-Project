@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buttons</title>
+    <title>Iframe</title>
     <link rel="stylesheet" href="Main Css/aHome.css">
-    <link rel="stylesheet" href="Main Css/buttons.css">
+    <link rel="stylesheet" href="Main Css/Iframes.css">
 </head>
 
 <body>
@@ -21,18 +22,21 @@
         <li> <a href="">Menus</a></li>
     </ul>
 
+    <h1>You can embed other web sites into your pages with Iframes!</h1>
 
-    <h1>Buttons with special design!</h1>
-    <h2>Telephone and Email</h2>
-    <button type="button" class="num">+994 099 998 99 98</button>
-    <button type="button" class="email">muhammadali0@gmail.com</button>
+    <iframe src="" name="ifrm" id="frb"></iframe>
 
-    <h2> Danger, Succes, Warnig and Info!</h2>
-    <button type="button" class="danger btn">Danger</button>
-    <button type="button" class="success btn">Success</button>
-    <button type="button" class="warning btn">Warning</button>
-    <button type="button" class="info btn">Info</button>
+    <button type="button" class="btn">
+        <a href="buttons.html" target="ifrm">Button</a>
+    </button>
 
+    <button type="button" class="btn">
+        <a href="tables.html" target="ifrm">Tables</a>
+    </button>
+
+    <h2>Nested iframes and how link targets work</h2>
+
+    <iframe src="iframesecond.html" name="ifrm" id="frb" class="frm"></iframe>
 
 </body>
 
