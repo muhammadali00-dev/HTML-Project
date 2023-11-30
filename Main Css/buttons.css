@@ -1,0 +1,56 @@
+.num {
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 15px 20px;
+    background-color: #0a315a;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.email {
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 15px 20px;
+    background-color: #0a315a;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    border: 1px solid transparent;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+
+}
+
+.success {
+    color: white;
+    background-color: green;
+    border-color: green;
+}
+
+
+.danger {
+    color: #fff;
+    background-color: tomato;
+    border-color: tomato;
+}
+
+
+.warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+
+.info {
+    color: white;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
