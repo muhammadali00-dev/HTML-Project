@@ -2,26 +2,26 @@
     size: 40px;
 }
 
-.home {
+.m-menu {
     display: flex;
     background-color: #4F6F52;
 }
 
-.home li {
+.m-menu li {
     margin: 20px;
     list-style-type: none;
     color: white;
     margin-left: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.home a {
+.m-menu a {
     color: white;
     text-decoration: none;
     padding: 20px;
+    margin-left: -10px;
 }
 
-.home a:hover {
+.m-menu a:hover {
     background-color: #3A4D39;
     color: #ECE3CE;
 }

@@ -1,0 +1,38 @@
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+
+.table1 thead {
+    background-color: #ffddc4;
+}
+
+.table1 tbody {
+    background-color: #EABF9F;
+}
+
+.table1 tfoot {
+    background-color: #B6836a;
+}
+
+
+.table2 #frst {
+    background-color: #ffddc4;
+}
+
+.table2 #mid {
+    background-color: #EABF9F;
+}
+
+.table2 #lst {
+    background-color: #b6836a;
+}
+
+caption {
+    background-color: #1E212D;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
