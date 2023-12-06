@@ -119,9 +119,32 @@
         <label for="msg">Your message:</label><br>
         <textarea name="user_message" id="msg" cols="30" rows="10" readonly>Here is your message:</textarea>
 
-        <input type="submit" value="Send">
-    </form>
+        <br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        <br><br>
+        <button type="submit" value="submit">submit</button>
+        <button type="reset" value="reset">reset</button>
+        <br><br>
+        <form action="https://www.w3schools.com/">
+            <input type="submit" value="submit to w3school">
+        </form>
+        <br>
+        <form action="/action_page.php">
+            <input type="submit" value="submit to current page">
+        </form>
+        <br>
+        <input type="submit" value="submit with required" required>
+        <br><br>
+        <form action="process.php" method="get">
+            <input type="submit" value="submit (get)">
+        </form>
+        <br>
+        <form action="process.php" method="post">
+            <input type="submit" value="submit (post)">
+        </form>
 
+    </form>
 </body>
 
 </html>
